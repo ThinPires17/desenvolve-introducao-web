@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cores RGB - Original, Clara e Escura</title>
+  <style>
+    :root {
+      --cor-original: rgb(219, 78, 68);
+      --cor-clara: rgb(224, 105, 96);
+      --cor-escura: rgb(186, 66, 58);
+    }
+
+    .cor-box {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      border: 1px solid #333;
+    }
+
+    .original {
+      background-color: var(--cor-original);
+      color: white;
+    }
+
+    .clara {
+      background-color: var(--cor-clara);
+      color: black;
+    }
+
+    .escura {
+      background-color: var(--cor-escura);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="cor-box original">Original</div>
+  <div class="cor-box clara">15% Clara</div>
+  <div class="cor-box escura">15% Escura</div>
+</body>
+</html>
